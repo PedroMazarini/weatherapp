@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="hoje">Hoje</string>
+    <string name="ontem">Ontem</string>
+    <string name="amanha">Amanhã</string>
+    <string name="de">of</string>
+</resources>

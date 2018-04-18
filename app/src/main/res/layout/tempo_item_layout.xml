@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/tempo_item_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tempo_item_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+
+        android:text="terca 29 teste"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tempo_item_minima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="555"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:layout_toLeftOf="@+id/tempo_item_maxima"
+        android:layout_marginRight="50dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tempo_item_maxima"
+        android:layout_width="wrap_content"
+        android:text="5555"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
